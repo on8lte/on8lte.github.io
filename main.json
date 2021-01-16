@@ -784,7 +784,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/groups.io\/g\/ON4DST\/"
+                         "value":"ON4DST_PRIKBORD.html"
                         }],
                  "type":"URL"
                 }],
@@ -955,7 +955,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/groups.io\/g\/ON4DST\/"
+                         "value":"ON4DST_PRIKBORD.html"
                         }],
                  "type":"URL"
                 }],
