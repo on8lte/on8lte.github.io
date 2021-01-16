@@ -133,7 +133,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/my.safesign.be\/safesign\/live\/klok\/nl.html"
+                 "value":"https:\/\/on8lte.github.io\/ON8TOM_QLOCKTWO.html"
                 }],
          "type":"tilelayer",
          "visible":true,
