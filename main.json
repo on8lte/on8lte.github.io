@@ -133,7 +133,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/my.safesign.be\/safesign\/live\/klok\/nl.html"
+                 "value":"http:\/\/my.safesign.be\/safesign\/live\/klok\/nl.html"
                 }],
          "type":"tilelayer",
          "visible":true,
