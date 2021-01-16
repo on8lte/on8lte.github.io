@@ -115,7 +115,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"ON4DST_PRIKBORD.html"
+                 "value":"https:\/\/on8lte.github.io\/ON4DST_PRIKBORD.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -784,7 +784,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"ON4DST_PRIKBORD.html"
+                         "value":"https:\/\/on8lte.github.io\/ON4DST_PRIKBORD.html"
                         }],
                  "type":"URL"
                 }],
@@ -955,7 +955,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"ON4DST_PRIKBORD.html"
+                         "value":"https:\/\/on8lte.github.io\/ON4DST_PRIKBORD.html"
                         }],
                  "type":"URL"
                 }],
