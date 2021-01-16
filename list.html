@@ -10,9 +10,9 @@
       const data = await response.json();
       for (let file of data) {
         if(file.type == "dir" && !ignoredDirs.includes(file.name)){
-          fetchWithRecursion("https://api.github.com/repos/hsbe/hsbe.github.io/contents/"+file.path);
+          fetchWithRecursion("https://api.github.com/repos/on8lte/on8lte.github.io/contents/"+file.path);
         }else if(file.type == "file" && file.name.endsWith(".json") ){
-          const map = await fetch("https://hsbe.world/"+file.path);
+          const map = await fetch("https://on8lte.github.io/"+file.path);
           const mapData = await map.json();
           if(Object.prototype.hasOwnProperty.call(mapData, 'layers')){
             mapData.layers.forEach(function(layer) {
@@ -31,7 +31,7 @@
         }
       }
     }
-    fetchWithRecursion("https://api.github.com/repos/hsbe/hsbe.github.io/contents/");
+    fetchWithRecursion("https://api.github.com/repos/on8lte/on8lte.github.io/contents/");
     </script>
   <body>
 </html>
