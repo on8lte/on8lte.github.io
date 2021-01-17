@@ -189,6 +189,12 @@
          "id":28,
          "name":"ON4DST_RAAM",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/on8lte.github.io\/ON4DST_RAAM.html"
+                }],
          "type":"tilelayer",
          "visible":false,
          "width":32,
