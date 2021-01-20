@@ -145,7 +145,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/on8lte.github.io\/ON4DST_IONOGRAM.html"
+                 "value":"http:\/\/digisonde.oma.be\/latestFrames.htm"
                 }],
          "type":"tilelayer",
          "visible":true,
