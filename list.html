@@ -3,7 +3,7 @@
     <ul id="data"></ul>
     <script>
     let ignoredDirs = ["tiles_png", "mp3"];
-    let jitsiPrefix = "https://coremeet.workadventu.re/osg-ntq-ubl-";
+    let jitsiPrefix = "https://coremeet.workadventu.re/osgntqubl";
 
     async function fetchWithRecursion(url) {
       const response = await fetch(url);
@@ -20,8 +20,11 @@
                 if(layer.properties[0].name == "jitsiRoom"){
                   var li = document.createElement("li");
                   var a = document.createElement("a");
-                  a.appendChild(document.createTextNode(layer.properties[0].value));
-                  a.setAttribute("href", jitsiPrefix+layer.properties[0].value);
+				  var b = layer.properties[0].value
+				  b = b.replace("_","");
+				  b = b.toLowerCase();
+                  a.appendChild(document.createTextNode(b));
+                  a.setAttribute("href", jitsiPrefix+b);
                   li.appendChild(a);
                   document.getElementById("data").appendChild(li);
                 }
